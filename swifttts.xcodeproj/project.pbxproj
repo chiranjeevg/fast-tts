@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXProject section */
+		08FB7794FE8415910056BE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME "Developer";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 14C09B9921583A2F0040756C /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7795FE8415910056BE87;
+			productRefGroup = 0342FD2E1D1F658C00D9A913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = {
+			};
+		};
+/* End PBXProject section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXNativeTarget section */
+/* End PBXNativeTarget section */
+
+/* Begin PBXAggregateTarget section */
+/* End PBXAggregateTarget section */
+
+/* Begin XCBuildConfiguration section */
+		14C09B9A21583A2F0040756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C09B9B21583A2F0040756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C09B9921583A2F0040756C /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C09B9A21583A2F0040756C /* Debug */,
+				14C09B9B21583A2F0040756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7794FE8415910056BE87 /* Project object */;
+}

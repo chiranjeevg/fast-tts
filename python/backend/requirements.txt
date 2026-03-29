@@ -1,0 +1,6 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+onnxruntime==1.19.2
+torch==2.5.1
+transformers==4.48.0
+numpy==1.26.4
