@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0d-1pO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+    </dependencies>
+    <scenes>
+        <scene objectID="::NSApplicationScene">
+            <objects>
+                <application id="1"/>
+                <menu title="Main Menu" systemMenu="main" id="29"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

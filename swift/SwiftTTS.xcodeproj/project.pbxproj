@@ -1,0 +1,115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXProject section */
+		08FB7794FE8415910056BE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME "Developer";
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 14C09B9921583A2F0040756C /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7795FE8415910056BE87;
+			productRefGroup = 0342FD2E1D1F658C00D9A913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = {
+			};
+		};
+/* End PBXProject section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D0073BE60 /* SwiftTTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C09B9D21583A2F0040756C /* Build configuration list for PBXNativeTarget SwiftTTS */;
+			buildPhases = {
+				8D1107260486CEB800E470CA /* Resources */,
+				1D60588F0D05DD3D0073BE60 /* Sources */,
+			};
+			buildRules = {
+			};
+			dependencies = {
+			};
+			name = "SwiftTTS";
+			productName = "SwiftTTS";
+			productReference = 1D6058910D05DD3D0073BE60 /* SwiftTTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXFilesBuildPhase section */
+		1D60588F0D05DD3D0073BE60 /* Sources */ = {
+			isa = PBXFilesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6058920D05DD3D0073BE60 /* AppDelegate.swift */,
+				1D6058930D05DD3D0073BE60 /* ViewController.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFilesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107260486CEB800E470CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6058940D05DD3D0073BE60 /* Base.lproj/Main.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		14C09B9A21583A2F0040756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C09B9B21583A2F0040756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = macosx;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C09B9921583A2F0040756C /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C09B9A21583A2F0040756C /* Debug */,
+				14C09B9B21583A2F0040756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7794FE8415910056BE87 /* Project object */;
+}
