@@ -1,0 +1,8 @@
+# Fast-TTS Core Dependencies
+
+# For benchmarking and testing
+pytest>=7.0.0
+pydantic>=2.0.0
+
+# For macOS audio processing (native)
+# No external dependencies - uses AVFoundation via subprocess

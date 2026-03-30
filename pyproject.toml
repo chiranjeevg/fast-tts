@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-tts"
+version = "1.0.0"
+description = "High-performance text-to-speech engine optimized for messaging platforms"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Hermes Agent Team", email = "dev@hermes.ai"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/hermes-ai/fast-tts"
+"Bug Tracker" = "https://github.com/hermes-ai/fast-tts/issues"
+"Documentation" = "https://docs.fasttts.dev"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fast_tts*"]
+
+[project.scripts]
+fast-tts = "fast_tts.cli:main"
