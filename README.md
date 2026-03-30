@@ -1,4 +1,4 @@
-# ⚡ Fast-TTS: High-Performance Text-to-Speech for WhatsApp & Mobile
+# ⚡ Fast-TTS: High-Performance Text-to-Speech Engine
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Why Fast-TTS?
+## Why Fast-TTS?
 
 Most text-to-speech systems fail at three critical metrics for messaging platforms:
 
@@ -21,12 +21,12 @@ Most text-to-speech systems fail at three critical metrics for messaging platfor
 
 ### Why It's Faster
 
-#### 1. **Intelligent Caching Layer**
+#### 1. Intelligent Caching Layer
 - SHA-256 content hashing for exact duplicate detection
 - Automatic cache population on first use
 - Persistent storage across sessions
 
-#### 2. **Dynamic Chunking Algorithm**
+#### 2. Dynamic Chunking Algorithm
 ```python
 # Short messages (35-70 chars): Single synthesis call
 # Long messages: Smart splitting with overlap detection
@@ -36,38 +36,38 @@ max_chunk_size = 70    # Maximum single-synthesis length
 target_chunk_size = 55 # Optimal balance
 ```
 
-#### 3. **Parallel Processing**
+#### 3. Parallel Processing
 ```python
 # Uses all available CPU cores for synthesis
 with Pool(processes=num_workers) as pool:
     results = pool.map(self.synthesize_chunk, chunk_args)
 ```
 
-#### 4. **Voice Warmup (JIT Optimization)**
+#### 4. Voice Warmup (JIT Optimization)
 - Pre-initializes AVFoundation on first use
 - Eliminates initialization overhead from actual requests
 
-#### 5. **Optimized File I/O**
+#### 5. Optimized File I/O
 - Uses AIFF format for native macOS compatibility
 - Direct file operations without intermediate buffering
 
 ---
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 | Test Case | Traditional (ms) | Fast-TTS (ms) | Improvement |
 |-----------|------------------|---------------|-------------|
-| Short command ("Hello") | 504 | 12 | **97.6%** ⚡ |
-| Welcome message (49 chars) | 539 | 12 | **97.8%** ⚡ |
-| Question response (25 chars) | 585 | 12 | **97.9%** ⚡ |
-| Order confirmation (62 chars) | 483 | 12 | **97.5%** ⚡ |
-| Long notification (108 chars) | 472 | 12 | **97.5%** ⚡ |
+| Short command ("Hello") | 504 | 12 | **97.6%** |
+| Welcome message (49 chars) | 539 | 12 | **97.8%** |
+| Question response (25 chars) | 585 | 12 | **97.9%** |
+| Order confirmation (62 chars) | 483 | 12 | **97.5%** |
+| Long notification (108 chars) | 472 | 12 | **97.5%** |
 
 **Average Latency Reduction: 97.7%**
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -104,13 +104,13 @@ with Pool(processes=num_workers) as pool:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fast-tts.git
+git clone https://github.com/chiranjeevg/fast-tts.git
 cd fast-tts
 
 # Install dependencies (Python 3.8+)
@@ -154,7 +154,7 @@ python -m fast_tts.cache clear
 
 ---
 
-## 📱 iOS Integration
+## iOS Integration
 
 The Fast-TTS iOS app demonstrates real-time WhatsApp message synthesis:
 
@@ -167,7 +167,7 @@ See [`ios/README.md`](./ios/README.md) for iOS-specific documentation.
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### System Requirements
 - macOS 12+ (Apple Silicon or Intel)
@@ -197,7 +197,7 @@ tts = OptimizedTTSSystem(
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how:
 
@@ -215,25 +215,10 @@ We welcome contributions! Here's how:
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 🙏 Acknowledgments
-
-- AVFoundation framework for macOS text-to-speech
-- WhatsApp Business API for integration use cases
-- The open-source community for inspiration
-
----
-
-## 📞 Support & Contact
-
-- [GitHub Issues](https://github.com/yourusername/fast-tts/issues)
-- Twitter: [@fasttts_official](https://twitter.com/fasttts_official)
-
----
-
-*Made with ❤️ for faster communication*
+*© 2026 Hermes AI. Fast-TTS is open source software built for the global community.*
